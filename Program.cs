@@ -78,7 +78,15 @@ namespace ShoskesBankAccountProject
                         Console.WriteLine("How much are you depositing?");
                         try
                         {
-                            userAccount.Deposit(Double.Parse(Console.ReadLine()));
+                            double amount = Double.Parse(Console.ReadLine());
+                            if (amount > 0)
+                            {
+                                userAccount.Deposit(amount);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Please enter a positive amount for transactions.");
+                            }
                         }
                         catch (FormatException)
                         {
@@ -89,7 +97,15 @@ namespace ShoskesBankAccountProject
                         Console.WriteLine("How much are you withdrawing?");
                         try
                         {
-                            userAccount.Withdraw(Double.Parse(Console.ReadLine()));
+                            double amount = Double.Parse(Console.ReadLine());
+                            if (amount > 0)
+                            {
+                                userAccount.Withdraw(amount);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Please enter a positive amount for transactions.");
+                            }
                         }
                         catch (FormatException)
                         {
@@ -104,13 +120,20 @@ namespace ShoskesBankAccountProject
                         Console.WriteLine("How many boxes of checks would you like? They are $5 apiece with a(n) {0} design.", userAccount.CheckColor);
                         try
                         {
-                            double numberOfChecks = Double.Parse(Console.ReadLine());
-                            userAccount.OrderChecks(numberOfChecks);
+                            int numberOfChecks = int.Parse(Console.ReadLine());
+                            if (numberOfChecks > 0)
+                            {
+                                userAccount.OrderChecks(numberOfChecks);
+                            }
+                            else
+                            {
+                                Console.WriteLine("Invalid amount for check boxes.");
+                            }
                             break;
                         }
                         catch
                         {
-                            Console.WriteLine("Invalid input, please enter a numeric amount.");
+                            Console.WriteLine("Invalid input, please enter a numeric positive integer amount.");
                             break;
                         }
                     case "5":
