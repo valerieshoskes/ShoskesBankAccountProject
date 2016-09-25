@@ -1,0 +1,16 @@
+Smith_Bob_02  Checking 9/25/2016 11:09:56 AM -25 -25
+The most recent balance on your Checking is $-25
+YOU ARE IN DEBT!
+Smith_Bob_02  Checking 9/25/2016 11:10:11 AM +75 50
+The most recent balance on your Checking is $50
+Smith_Bob_02  Checking 9/25/2016 4:59:48 PM -5 -5
+The most recent balance on your Checking is $-5
+YOU ARE IN DEBT!
+Smith_Bob_02  Checking 9/25/2016 5:02:38 PM +350 345
+The most recent balance on your Checking is $345
+Smith_Bob_02  Checking 9/25/2016 5:03:04 PM --5 350
+The most recent balance on your Checking is $350
+Smith_Bob_02  Checking 9/25/2016 5:03:55 PM -0 350
+The most recent balance on your Checking is $350
+Smith_Bob_02  Checking 9/25/2016 5:04:05 PM +-200 150
+The most recent balance on your Checking is $150

@@ -1,0 +1,9 @@
+Doe_John_01  Checking 9/23/2016 2:04:54 PM +200 200
+The most recent balance on your Checking is $200
+
+Doe_John_01  Checking 9/23/2016 2:05:02 PM -100 100
+The most recent balance on your Checking is $100
+
+Doe_John_01  Checking 9/23/2016 2:05:54 PM +30 30
+The most recent balance on your Checking is $30
+
