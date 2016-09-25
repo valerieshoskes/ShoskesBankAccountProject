@@ -11,10 +11,22 @@ namespace ShoskesBankAccountProject
     {
         //Fields
 
-        public string accountName;
-        public string accountSettings;
+        private string accountName;
+        private string accountSettings;
 
         //Properties
+    
+        public string AccountName
+        {
+            get { return this.accountName; }
+            set { this.accountName = value; }
+        }
+
+        public string AccountSettings
+        {
+            get { return this.accountSettings; }
+            set { this.accountSettings = value; }
+        }
 
         //Constructors
 
